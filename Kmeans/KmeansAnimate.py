@@ -2,13 +2,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 plt.rcParams["animation.convert_path"] = "C:\Program Files\ImageMagick-7.0.9-Q16\magick.exe" 
 from matplotlib import animation
-from matplotlib.animation import PillowWriter
 import random as rnd, numpy as np
 import seaborn as sns;sns.set();
 np.set_printoptions(suppress=True)
-
-
-
 
 class kmeans_classifier:
     def __init__(self,df,k=None):
@@ -44,9 +40,7 @@ class kmeans_classifier:
                     self.distances[1][j] = i
                     
         self.objective_funtion.append(np.sum(self.distances[0]))
-        return self.distances
-
-        
+        return self.distances     
 
     def get_centroids(self):
         cen_c = np.zeros(self.k,int)
