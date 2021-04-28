@@ -21,6 +21,8 @@ from apps.endpoints.urls import urlpatterns as endpoints_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path("", include('apps.endpoints.urls', namespace='endpoints')),
+    path("comviz/", include('apps.comviz.urls', namespace='comviz'))
 ]
 
-urlpatterns += endpoints_urlpatterns
+#urlpatterns += endpoints_urlpatterns

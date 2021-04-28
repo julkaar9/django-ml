@@ -25,7 +25,7 @@ SECRET_KEY = '-ad^o0p6db#5emft4@ggp3$w2dm^1g7!b64qg&oi7f2b@6g2jw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '192.168.0.4',]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '*']
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'apps.endpoints',
+    'apps.comviz',
 ]
 
 MIDDLEWARE = [
