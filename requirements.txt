@@ -1,0 +1,6 @@
+Django
+djangorestframework
+matplotlib
+numpy
+Pillow
+tensorflow-gpu @ https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-2.4.0-cp38-cp38-win_amd64.whl
