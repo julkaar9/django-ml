@@ -3,7 +3,10 @@ import cv2
 import requests
 import numpy as np
 from apps.comviz.source.petsSegment import PetsSegmentor
-URL = 'http://192.168.0.2:8080/shot.jpg'
+
+# your Ip Webcam url
+URL = 'http://192.168.0.xxx:8080/shot.jpg'
+
 class VideoCamera(PetsSegmentor):
     def __init__(self):
         # Using OpenCV to capture from device 0. If you have trouble capturing
