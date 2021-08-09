@@ -85,7 +85,7 @@ pyrsistent @ file:///D:/bld/pyrsistent_1610147004705/work
 PySocks @ file:///D:/bld/pysocks_1610291742246/work
 python-dateutil==2.8.1
 pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1612179539967/work
-pywin32==300
+pywin32==301
 pywinpty @ file:///D:/bld/pywinpty_1618862927330/work
 pyzmq @ file:///D:/bld/pyzmq_1614611907285/work
 requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
