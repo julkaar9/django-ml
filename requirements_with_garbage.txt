@@ -11,7 +11,7 @@ backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifact
 bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1612213472466/work
 brotlipy==0.7.0
 cachetools==4.2.2
-certifi==2020.12.5
+certifi==2023.7.22
 cffi @ file:///D:/bld/cffi_1613414140225/work
 chardet @ file:///D:/bld/chardet_1610093646853/work
 colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
